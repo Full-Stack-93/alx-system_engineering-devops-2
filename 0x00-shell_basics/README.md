@@ -13,3 +13,4 @@ Task 7: Script to move the file betty from /tmp/ to /tmp/my_first_directory - mv
 Task 8: Script to  delete the file betty.
 The file betty is in /tmp/my_first_directory - rm /tmp/my_first_directory/betty
 Task 9: Script to delete the directory my_first_directory that is in the /tmp directory - rm -r /tmp/my_first_directory
+Task 10: Script to change the working directory to the previous one - cd -

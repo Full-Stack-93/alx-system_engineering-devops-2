@@ -8,3 +8,4 @@ Task 5: Script to Display current directory contents.
 Long format
 with user and group IDs displayed numerically
 And hidden files (starting with .) - ls -na
+Task 6: Script to create a directory named my_first_directory in the /tmp/ directory - mkdir /tmp/my_first_directory

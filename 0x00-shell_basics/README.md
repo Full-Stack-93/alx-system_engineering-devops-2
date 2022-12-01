@@ -10,3 +10,5 @@ with user and group IDs displayed numerically
 And hidden files (starting with .) - ls -na
 Task 6: Script to create a directory named my_first_directory in the /tmp/ directory - mkdir /tmp/my_first_directory
 Task 7: Script to move the file betty from /tmp/ to /tmp/my_first_directory - mv /tmp/betty /tmp/my_first_directory
+Task 8: Script to  delete the file betty.
+The file betty is in /tmp/my_first_directory - rm /tmp/my_first_directory/betty

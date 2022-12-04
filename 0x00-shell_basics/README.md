@@ -22,3 +22,10 @@ You can consider that all HTML files have the extension .html - cp -u *.html ..
 Task 15: Script to move all files beginning with an uppercase letter to the directory /tmp/u - mv [[:upper:]]* /tmp/u
 Task 16: Script to delete all files in the current working directory that end with the character ~ - rm *~
 Task 17: Script to create the directories welcome/, welcome/to/ and welcome/to/school in the current directory - mkdir -p welcome/to/school
+Task 18: Script to lists all the files and directories of the current directory, separated by commas (,).
+Directory names should end with a slash (/)
+Files and directories starting with a dot (.) should be listed
+The listing should be alpha ordered, except for the directories . and .. which should be listed at the very beginning
+Only digits and letters are used to sort; Digits should come first
+You can assume that all the files we will test with will have at least one letter or one digit
+The listing should end with a new line - ls -xmpa

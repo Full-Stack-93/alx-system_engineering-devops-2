@@ -21,3 +21,4 @@ Task 14: Script to copy all the HTML files from the current working directory to
 You can consider that all HTML files have the extension .html - cp -u *.html ..
 Task 15: Script to move all files beginning with an uppercase letter to the directory /tmp/u - mv [[:upper:]]* /tmp/u
 Task 16: Script to delete all files in the current working directory that end with the character ~ - rm *~
+Task 17: Script to create the directories welcome/, welcome/to/ and welcome/to/school in the current directory - mkdir -p welcome/to/school

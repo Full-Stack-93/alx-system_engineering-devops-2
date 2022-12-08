@@ -41,3 +41,7 @@ Task 13: Write a script that changes the group owner to school for the file hell
 The file hello will be in the working directory - chgrp school hello
 
 Task 14: Write a script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory - chown vincent:staff *
+
+Task 15: Write a script that changes the owner and the group owner of _hello to vincent and staff respectively.
+The file _hello is in the working directory
+The file _hello is a symbolic link - chown -h vincent:staff _hello

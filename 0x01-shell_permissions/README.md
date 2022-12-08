@@ -18,3 +18,9 @@ The file hello will be in the working directory - chmod u+x,g+x,o+r hello
 Task 7: Write a script that adds execution permission to the owner, the group owner and the other users, to the file hello
 The file hello will be in the working directory
 You are not allowed to use commas for this script - chmod ugo+x hello
+
+Task 8: Write a script that sets the permission to the file hello as follows:
+Owner: no permission at all
+Group: no permission at all
+Other users: all the permissions
+The file hello will be in the working directory You are not allowed to use commas for this script - chmod 007 hello

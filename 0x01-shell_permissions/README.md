@@ -14,3 +14,7 @@ The file hello will be in the working directory - chmod u+x hello
 
 Task 6: Write a script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
 The file hello will be in the working directory - chmod u+x,g+x,o+r hello
+
+Task 7: Write a script that adds execution permission to the owner, the group owner and the other users, to the file hello
+The file hello will be in the working directory
+You are not allowed to use commas for this script - chmod ugo+x hello

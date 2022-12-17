@@ -22,3 +22,7 @@ Task 9: Write a script that duplicates the last line of the file iacta
 The file iacta will be in the working directory - tail -n 1 iacta >> iacta
 
 Task 10: Write a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders - find . -type f -name '*.js' -delete
+
+Task 11 - Write a script that counts the number of directories and sub-directories in the current directory.
+The current and parent directories should not be taken into account
+Hidden directories should be counted - find . -mindepth 1 -type d -print | wc -l

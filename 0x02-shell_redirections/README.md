@@ -26,3 +26,8 @@ Task 10: Write a script that deletes all the regular files (not the directories)
 Task 11 - Write a script that counts the number of directories and sub-directories in the current directory.
 The current and parent directories should not be taken into account
 Hidden directories should be counted - find . -mindepth 1 -type d -print | wc -l
+
+Task 12: Create a script that displays the 10 newest files in the current directory.
+Requirements:
+One file per line
+Sorted from the newest to the oldest - ls -1t | head

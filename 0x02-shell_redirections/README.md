@@ -77,3 +77,7 @@ Task 25: An acrostic is a poem (or other form of writing) in which the first let
 Create a script that decodes acrostics that use the first letter of each line.
 The ‘decoded’ message has to end with a new line
 You are not allowed to use grep, egrep, fgrep or rgrep - cut -c 1 | paste -d '' -s
+
+Task 26: Write a script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
+Order by number of requests, most active host or IP at the top
+You are not allowed to use grep, egrep, fgrep or rgrep - tail -n +2 | cut -f1 | sort | uniq -c | sort -nr | head -11 | tr -s ' ' | cut -d' ' -f3

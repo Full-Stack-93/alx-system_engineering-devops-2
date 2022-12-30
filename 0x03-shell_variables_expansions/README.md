@@ -11,3 +11,7 @@ Task 3: Create a script that counts the number of directories in the PATH - echo
 Task 4: Create a script that lists environment variables - printenv
 
 Task 5: Create a script that lists all local variables and environment variables, and functions - set
+
+Task 6: Create a script that creates a new local variable.
+Name: BEST
+Value: School - BEST="School"

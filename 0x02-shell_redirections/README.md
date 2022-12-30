@@ -53,3 +53,6 @@ Task 19: Replace all characters A and c from input to Z and e respectively - tr 
 Task 20: Create a script that removes all letters c and C from input. - tr -d 'c,C'
 
 Task 21: Write a script that reverse its input. - rev
+
+Task 22: Write a script that displays all users and their home directories, sorted by users.
+Based on the the /etc/passwd file - cut -d ':' -f 1,6 /etc/passwd | sort

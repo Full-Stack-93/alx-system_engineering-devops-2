@@ -49,3 +49,5 @@ Task 18: Display all lines of the file /etc/ssh/sshd_config starting with a lett
 include capital letters as well - grep "^[a-zA-Z]" /etc/ssh/sshd_config
 
 Task 19: Replace all characters A and c from input to Z and e respectively - tr "[A,c]" "[Z,e]"
+
+Task 20" Create a script that removes all letters c and C from input. - tr -d 'c,C'

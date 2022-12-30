@@ -15,3 +15,7 @@ Task 5: Create a script that lists all local variables and environment variables
 Task 6: Create a script that creates a new local variable.
 Name: BEST
 Value: School - BEST="School"
+
+Task 7: Create a script that creates a new global variable.
+Name: BEST
+Value: School - export BEST="School"
